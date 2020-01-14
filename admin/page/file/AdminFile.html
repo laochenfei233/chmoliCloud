@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>文件管理 - Amoli私有云</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="../../layui/css/layui.css" media="all" />
+	<link rel="stylesheet" href="../../css/public.css" media="all" />
+	<script src="https://at.alicdn.com/t/font_1186130_04lkv4r5pub2.js"></script>
+	<style type="text/css">
+		.ico{width:18px}.size{width:100px}.time{width:140px}.icon{width:1em;height:1em;vertical-align:-0.15em;fill:currentColor;overflow:hidden;}
+	</style>	
+</head>
+
+<body class="childrenBody">
+	<input type="hidden" id="NowDir"></input>
+	<table id="List" lay-filter="List"></table>
+	<!--操作-->
+	<script type="text/html" id="ListBar">
+		{{#  if(d.type != 'null' && d.type != 'wjj' && d.type != 'reply'){ }}
+			<a class="layui-btn layui-btn-xs layui-btn-warm" lay-event="share">分享</a>
+			<a class="layui-btn layui-btn-xs layui-btn-normal" lay-event="down">下载</a>
+			<a class="layui-btn layui-btn-xs layui-btn-danger" lay-event="del">删除</a>
+		{{#  } }}
+	</script>
+	<script type="text/javascript" src="../../layui/layui.js"></script>
+	<script type="text/javascript" src="AdminFile.js?v=4.2.2"></script>
+</body>
+
+</html>
