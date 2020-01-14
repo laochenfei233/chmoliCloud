@@ -1,7 +1,7 @@
 <p align="center">
-<img src="https://s2.ax1x.com/2019/05/30/VKshgs.png" alt="AmoliCloud">
+<img src="https://s2.ax1x.com/2019/05/30/VKshgs.png" alt="chmoliCloud">
 </p>
-<h1 align="center">AmoliCloud</h1>
+<h1 align="center">chmoliCloud</h1>
 
 > 😊一款轻量级的私有云存储系统，支持本地、阿里云OSS、腾讯云COS做为存储方式，提供简单的文件列表、上传下载、文件分享、文件管理等功能。
 
@@ -23,8 +23,9 @@
 支持IE9及以上的现代浏览器，并且已在 Chrome、firefox、IE11 等浏览器测试使用正常
 
 #### 版权
-[原程序](https://github.com/ChinaMoli/AmoliCloud)由 [无名氏Studio](https://wums.cn) 开发，您可以随意修改、使用、转载。
-现程序由[帽贝网络工作室](https://www.xyern.com)开发
+[原程序](https://github.com/ChinaMoli/ch)由 [无名氏Studio](https://wums.cn) 开发，您可以随意修改、使用、转载。
+
+现程序由[帽贝网络工作室](https://www.xyern.com)的[老晨飞233](https://github.com/laochenfei233)开发
 
 
 ### 部署/Build
@@ -48,9 +49,10 @@ git clone https://github.com/laochenfei233/chmoliCloud.git
 
 ### 更新计划/Preview
 -----
-* 增加七牛云、又拍云等主流对象存储
+* 增加OneDrive、百度网盘等主流对象存储
 * 优化界面
 * 去除原有广告并支持自行添加友链
+* 支持批量下载（可关闭此按钮或者限制流量）
 
 ### 开源协议/License
 -----
