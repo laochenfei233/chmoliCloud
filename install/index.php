@@ -8,7 +8,7 @@ if (file_exists('install.lock')) {
 <html lang="zh-CN">
 
 <head>
-    <title>安装向导 - Amoli私有云</title>
+    <title>安装向导 - chmoli私有云</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -24,7 +24,7 @@ if (file_exists('install.lock')) {
 
 <body>
     <div class="header">
-        <h1>感谢您选择Amoli私有云系统</h1>
+        <h1>感谢您选择基于Amoli二次开发的chmoli私有云系统</h1>
     </div>
     <?php
     $step = $_GET['step'];
@@ -36,17 +36,17 @@ if (file_exists('install.lock')) {
             <legend>Amoli私有云用户协议 适用于所有用户</legend>
             <div class="protocol">
             <p>
-                请您在使用(Amoli私有云)前仔细阅读如下条款。包括免除或者限制作者责任的免责条款及对用户的权利限制。您的安装使用行为将视为对本《用户许可协议》的接受，并同意接受本《用户许可协议》各项条款的约束。<br><br>
+                请您在使用(chmoli私有云)前仔细阅读如下条款。包括免除或者限制作者责任的免责条款及对用户的权利限制。您的安装使用行为将视为对本《用户许可协议》的接受，并同意接受本《用户许可协议》各项条款的约束。<br><br>
                 一、安装和使用：<br>
-                (Amoli私有云)是免费和开源提供给您使用的，您可安装无限制数量副本。 您必须保证在不进行非法活动，不违反国家相关政策法规的前提下使用本软件。<br><br>
+                (chmoli私有云)是免费和开源提供给您使用的，您可安装无限制数量副本。 您必须保证在不进行非法活动，不违反国家相关政策法规的前提下使用本软件。<br><br>
                 二、免责声明： <br>
                 本源码并无附带任何形式的明示的或暗示的保证，包括任何关于本源码的适用性, 无侵犯知识产权或适合作某一特定用途的保证。<br>
                 在任何情况下，对于因使用本软件或无法使用本软件而导致的任何损害赔偿，作者均无须承担法律责任。作者不保证本软件所包含的资料,文字、图形、链接或其它事项的准确性或完整性。作者可随时更改本软件，无须另作通知。<br>
                 所有由用户自己制作、下载、使用的第三方信息数据和插件所引起的一切版权问题或纠纷，本软件概不承担任何责任。<br><br>
                 三、协议规定的约束和限制：<br>
-                禁止去除(Amoli私有云)源码里的版权信息，商业授权版本可去除后台界面及前台界面的相关版权信息。<br>
-                禁止在(Amoli私有云)整体或任何部分基础上发展任何派生版本、修改版本或第三方版本用于重新分发。<br><br>
-                <strong>版权所有 &copy; 2018-2019，Amoli私有云,保留所有权利</strong>。
+                禁止去除(chmoli私有云)源码里的版权信息，商业授权版本可去除后台界面及前台界面的相关版权信息。<br>
+                禁止在(chmoli私有云)整体或任何部分基础上发展任何派生版本、修改版本或第三方版本用于重新分发。<br><br>
+                <strong>版权所有 &copy; 2020，chmoli私有云,保留所有权利</strong>。
             </p>
             </div>
         </fieldset>
@@ -191,7 +191,6 @@ if (file_exists('install.lock')) {
                 // 存储数据
                 $C->set('name', $name); // 网站名称
                 $C->set('indexpass', $indexpass); // 前台密码
-                $C->set('record', $record); // 网站备案号
                 $C->set('user', $user); // 后台账户
                 $C->set('pass', $pass); // 后台密码
                 $msg = $C->save();
@@ -216,7 +215,7 @@ if (file_exists('install.lock')) {
             break;
     }
     ?>
-    <div class="copyright">&copy; 2018-2019<a href="http://www.amoli.co" target="_blank"> Amoli.Co</a> All Rights Reserved.</div>
+    <div class="copyright">&copy; 2020<a href="http://www.limpet.cn" target="_blank"> chmoli.cn</a> All Rights Reserved.</div>
 </body>
 
 </html>
